@@ -1,0 +1,118 @@
+
+.nav-link{
+    color: #551A8B;
+    font-weight: 500;
+}
+
+
+body {
+    height: 100vh;
+    background-color: #E4E9FD;
+}
+
+
+.custom-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-div{
+    width: 30%;
+    
+}
+
+.container-div h1{
+    background-color: #A683E3;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.custom-btn{
+    color: aliceblue;
+    border: none;
+    background-color: #A683E3;
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    
+}
+
+.item-class{
+    background-color: #ffffff;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 20px #888888;
+    font-size: large;
+    font-weight: 400;
+    
+}
+
+.item{
+    /* display: flex;
+    justify-content: center; */
+    border-bottom: 1px solid silver;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item input{
+    margin: 20px;
+    
+}
+
+
+.form-class{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+
+form input{
+    border: none;
+    background-color: #ffffff;
+    /* width: 80%; */
+}
+.input-item{
+    width: 80%;
+}
+
+input[type=checkbox]:checked + p.strikethrough{
+    text-decoration: line-through;
+    color: #A683E3;
+}
+
+.strikethrough{
+    display: inline-block;
+}
+
+input[type=text]{
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+::placeholder {
+    text-align: center; 
+ }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container p{
+    align-items: center;
+
+}
